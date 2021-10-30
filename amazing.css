@@ -1,0 +1,57 @@
+img {
+    border: 1px solid red;
+}
+h1 {
+    background: black;
+    border: 1px solid blue;
+}
+h1, h2 {
+    color: gray;
+    color: pink !important;
+}
+#mon span {
+    color: pink;
+}
+#wed h2:hover{
+    color: green;
+    cursor: pointer;
+}
+#mon h2:hover,#tue h2:hover{
+    color: red;
+    cursor: pointer;
+}
+#mon #preniv{
+    border: 1px solid red;
+}
+#niv2{
+    background: yellow;
+}
+ul li:first-of-type{
+    color: gray;
+}
+ul li:nth-child(2){
+    color: red;
+}
+#tue span:Not(.nonContient1) {
+    color: blue;
+}
+#tue #Elem2 {
+    font-size: 200%;
+}
+ul li:nth-child(9){
+    color: blue;
+}
+ul li:nth-child(5n+3){
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
